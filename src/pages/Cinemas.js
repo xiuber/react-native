@@ -15,15 +15,15 @@ import {
     FlatList,
 } from 'react-native';
 
-export  default class Detail extends Component{
-    // static navigationOptions = {
-    //     header:null
-    // };
+export  default class Cinemas extends Component{
+    static navigationOptions = {
+        title:'影院页'
+    };
     render(){
         const { state} =this.props.navigation;
         return(
             <View>
-                <Text>id:{state.params.id}</Text>
+                <Text>影院页</Text>
             </View>
         );
     }

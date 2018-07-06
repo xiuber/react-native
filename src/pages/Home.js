@@ -21,6 +21,9 @@ import {dataHostUrl} from '../utils/config';
 
 
 export  default class Home extends Component{
+    static navigationOptions = {
+        header:null
+    };
     state = {
         data:[""],
         navigation:this.props.navigation
